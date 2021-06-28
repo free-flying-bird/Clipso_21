@@ -1,0 +1,21 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./vendor/load-animation/load-animation.css);
+@import url(./blocks/root/root.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/main/main.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/place-card/place-card.css);
+@import url(./blocks/photos/photos.css);
+@import url(./blocks/advantages/advantages.css);
+@import url(./blocks/advantage/advantage.css);
+@import url(./blocks/contact/contact.css);
+
+
+* {
+    box-sizing: border-box;
+}
+
+a:hover {
+    opacity: 0.7;
+}

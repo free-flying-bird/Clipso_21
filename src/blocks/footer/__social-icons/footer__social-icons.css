@@ -1,0 +1,7 @@
+.footer__social-icons {
+    display: flex;
+    max-width: 68px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 5px;
+  }

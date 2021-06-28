@@ -1,0 +1,7 @@
+@import url(./__title/advantages__title.css);
+@import url(./__container/advantages__container.css);
+
+.advantages {
+    text-align: center;
+    justify-content: center;
+}

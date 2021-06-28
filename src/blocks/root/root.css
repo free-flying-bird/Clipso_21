@@ -1,0 +1,10 @@
+.root {
+    background-color: #ffffff;
+    min-height: 100vh;
+    font-family: Inter, sans-serif;
+    padding: 0;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  

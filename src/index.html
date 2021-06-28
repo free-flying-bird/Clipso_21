@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Clipso XXI VEK</title>
+  <link rel="icon" href="<%=require('./images/Clipso_favicon.ico')%>" type="image/x-icon">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+</head>
+<body class='body'>
+  <div class="root">
+    <header class="header root__section">
+        <img src="<%=require('./images/Clipso_logo.png')%>" class="header__logo">
+        <div class="header__container">
+          <h1 class="header__title">Clipso 21 век</h1>
+          <div class="header__contacts">
+            <a href="https://viber.click/79914175258" title="Написать нам в Viber" target="_blank" class="header__social-icon header__social-icon_type_viber"></a>
+            <a href="https://wa.me/+79914175258" title="Написать нам в WhatApp" target="_blank" class="header__social-icon header__social-icon_type_whatsapp"></a>
+            <!-- need to change href for telegram -->
+            <p class="header__subtitle">+7(991)417-52-58</p>
+          </div>
+          <a href="mailto:Clipso21@mail.ru" target="_blank" title="Написать нам email" class="header__subtitle">Clipso21@mail.ru</a>
+          <a href="#contact" class="header__subtitle"><button class="header__button">Заказать звонок</button></a>
+        </div>
+    </header>
+    <section class="main">
+        <h2 class="main__title">Потолки для самых взыскательных клиентов</h2>
+    </section>
+    <section class="advantages">
+      <h2 class="main__title advantages__title">Наши преимущества</h2>
+      <div class="advantages__container">
+        <div class="advantage">
+          <img src="<%=require('./images/Best-logo.png')%>" alt="Качество" class="advantage__image">
+          <p class="advantage__subtitle place-card__name">Прямые поставки от ведущего европейского производителя</p>
+        </div>
+        <div class="advantage">
+          <img src="<%=require('./images/Choice-logo.png')%>" alt="Качество" class="advantage__image">
+          <p class="advantage__subtitle place-card__name">Большой выбор цветов и фактур в наличии на складе и под заказ</p>
+        </div>
+        <div class="advantage">
+          <img src="<%=require('./images/Individual-logo.png')%>" alt="Качество" class="advantage__image">
+          <p class="advantage__subtitle place-card__name">Индивидуальный подход к каждому клиенту</p>
+        </div>
+        <div class="advantage">
+          <img src="<%=require('./images/Delivery-logo.png')%>" alt="Качество" class="advantage__image">
+          <p class="advantage__subtitle place-card__name">Доставка транспортной компанией на Ваш выбор в любую точку России и СНГ</p>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="photos">
+      <div class="place-card place-card__image_kind_gardine">Любая геометрия и архитектура</div>
+      <div class="place-card place-card__image_kind_plant">Экологичный и безопасный материал (сертификат КМ1)</div>
+    </section>
+    <h2 class="main__title advantages__title">Только оригинальные материалы</h2>
+    <section class="photos">
+
+      <div class="place-card place-card__image_kind_catalog1"></div>
+      <div class="place-card place-card__image_kind_catalog2"></div>
+    </section>
+    <section id="contact" class="contact">
+      <iframe src="https://www.powr.io/contact-form/u/a9dc7a47_1624884857#platform=iframe" style="width:100%;" height="813px" frameborder="0"></iframe>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__social-icons">
+        <a href="https://github.com/sokolik90" target="_blank" title="github/Sviatoslav Sokolov" class="footer__social-icon footer__social-icon_type_github link"></a>
+        <!-- <a href="https://www.facebook.com/profile.php?id=100001914551795" title="facebook/Sviatoslav Sokolov" target="_blank" class="footer__social-icon footer__social-icon_type_facebook link"></a> -->
+      </div>
+    </footer>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>

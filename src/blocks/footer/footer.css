@@ -1,0 +1,30 @@
+@import url('./__social-icons/footer__social-icons.css');
+@import url('./__social-icon/footer__social-icon.css');
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: center;
+  margin: auto auto 0;
+  padding-bottom: 0;
+  margin-top: 180px;
+  border-top: 1px solid #1a1919;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

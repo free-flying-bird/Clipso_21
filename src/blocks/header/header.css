@@ -1,0 +1,27 @@
+@import url('./__logo/header__logo.css');
+@import url('./__title/header__title.css');
+@import url('./__contacts/header__contacts.css');
+@import url('./__social-icon/header__social-icon.css');
+@import url('./__subtitle/header__subtitle.css');
+@import url('./__container/header__container.css');
+@import url('./__button/header__button.css');
+
+.header {
+  padding-top: 20px;
+    min-height: 132px;
+    display: flex;
+    justify-content: space-between;
+    text-align:end;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid #1a1919;
+    z-index: 2;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .header {
+      min-height: 110px;
+    }
+  }

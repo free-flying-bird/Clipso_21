@@ -1,0 +1,23 @@
+.advantages__container {
+    display: grid;
+    grid-template-columns: 282px 282px;
+    grid-template-rows: 1fr 1fr;
+    margin: auto;
+    justify-content: center;
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+
+@media screen and (max-width: 720px) {
+    .advantages__container {
+        grid-template-columns: 282px;
+        grid-row-gap: 0;
+        grid-column-gap: 0;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .advantages__container {
+        grid-template-columns: 260px;
+    }
+  }

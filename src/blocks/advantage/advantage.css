@@ -1,0 +1,15 @@
+@import url(./__subtitle/advantage__subtitle.css);
+@import url(./__image/advantage__image.css);
+
+.advantage {
+    width: 282px;
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 360px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .advantage {
+        width: 260px;
+    }
+  }

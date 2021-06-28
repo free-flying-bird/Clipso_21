@@ -1,0 +1,32 @@
+@import url(./__image/place-card__image.css);
+@import url(./__image/_kind/_gardine/place-card__image_kind_gardine.css);
+@import url(./__image/_kind/_plant/place-card__image_kind_plant.css);
+@import url(./__image/_kind/_gardine/place-card__image_kind_catalog1.css);
+@import url(./__image/_kind/_gardine/place-card__image_kind_catalog2.css);
+@import url(./__description/place-card__description.css);
+@import url(./__name/place-card__name.css);
+
+.place-card {
+  padding-top: 20px;
+  width: 360px;
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 820px) {
+  .place-card {
+      margin-bottom: 40px;
+      min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .place-card {
+      width: 250px;
+      min-height: 300px;
+  }
+}
