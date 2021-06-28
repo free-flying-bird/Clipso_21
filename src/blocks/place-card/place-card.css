@@ -8,13 +8,20 @@
 
 .place-card {
   padding-top: 20px;
-  width: 360px;
+  width: 500px;
   background-color: #fff;
   border-radius: 10px;
   min-height: 500px;
   background-size: cover;
   background-position: center;
   text-align: center;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1160px) {
+  .place-card {
+      width: 400px;
+  }
 }
 
 @media screen and (max-width: 820px) {
