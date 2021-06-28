@@ -6,7 +6,7 @@
 }
 
 .header__social-icon:hover {
-    opacity: 0.7;
+    opacity: 0.9;
     animation: rotate-icon 1.2s ease;
 }
 
