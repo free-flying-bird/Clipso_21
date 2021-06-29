@@ -11,7 +11,7 @@
   width: 500px;
   background-color: #fff;
   border-radius: 10px;
-  min-height: 500px;
+  min-height: 600px;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -26,14 +26,14 @@
 
 @media screen and (max-width: 820px) {
   .place-card {
+      width: calc(100% - 20px);
       margin-bottom: 40px;
-      min-height: 400px;
+      min-height: 500px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .place-card {
-      width: 250px;
-      min-height: 300px;
+      min-height: 400px;
   }
 }

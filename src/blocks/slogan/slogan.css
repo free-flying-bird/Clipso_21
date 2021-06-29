@@ -1,23 +1,15 @@
-@import url('./__title/main__title.css');
+@import url(./__title/slogan__title.css);
 
-.main {
+.slogan {
+    background-image: url(../../images/slogan-image.jpg);
     font-family: 'Inter', sans-serif;
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 150px;
-    background-image: url(../../images/Head_image.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-    margin-top: -215px;
     align-items: center;
 }
-
-@media screen and (max-width: 900px) {
-    .main {
-      padding-top: 100px;
-    }
-  }

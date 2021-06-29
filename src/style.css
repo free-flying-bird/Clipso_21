@@ -10,7 +10,7 @@
 @import url(./blocks/advantages/advantages.css);
 @import url(./blocks/advantage/advantage.css);
 @import url(./blocks/contact/contact.css);
-
+@import url(./blocks/slogan/slogan.css);
 
 * {
     box-sizing: border-box;
