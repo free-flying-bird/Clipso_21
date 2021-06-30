@@ -1,6 +1,8 @@
 @import url(./__title/slogan__title.css);
 
 .slogan {
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-image: url(../../images/slogan-image.jpg);
     font-family: 'Inter', sans-serif;
     display: flex;

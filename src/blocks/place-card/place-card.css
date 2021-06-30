@@ -7,7 +7,6 @@
 @import url(./__name/place-card__name.css);
 
 .place-card {
-  padding-top: 20px;
   width: 500px;
   background-color: #fff;
   border-radius: 10px;

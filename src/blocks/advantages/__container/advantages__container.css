@@ -1,7 +1,6 @@
 .advantages__container {
-    display: grid;
-    grid-template-columns: 282px 282px;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     margin: auto;
     justify-content: center;
     grid-row-gap: 30px;

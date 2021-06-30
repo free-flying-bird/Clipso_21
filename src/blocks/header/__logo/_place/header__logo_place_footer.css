@@ -1,0 +1,12 @@
+.header__logo_place_footer {
+    max-height: 84px;
+    max-width: 84px;
+}
+
+@media screen and (max-width: 450px) {
+    .header__logo_place_footer {
+        max-height: 76px;
+        max-width: 76px;
+
+    }
+  }

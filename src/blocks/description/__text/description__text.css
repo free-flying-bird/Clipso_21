@@ -1,0 +1,13 @@
+.description__text {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 720px) {
+    .description__text {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+  }

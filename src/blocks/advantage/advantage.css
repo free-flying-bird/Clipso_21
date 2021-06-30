@@ -8,8 +8,10 @@
     min-height: 360px;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     .advantage {
         width: 260px;
+        max-height: 270px;
+        min-height: 270px;
     }
   }

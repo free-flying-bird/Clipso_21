@@ -1,9 +1,11 @@
 .footer__clipso-logo {
+    margin-right: 100px;
+    margin-left: auto;
     max-height: 84px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 720px) {
     .footer__clipso-logo {
-        max-height: 76px;
+        margin-right: 20px;
     }
   }
