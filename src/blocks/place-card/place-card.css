@@ -1,6 +1,7 @@
 @import url(./__image/place-card__image.css);
 @import url(./__image/_kind/_gardine/place-card__image_kind_gardine.css);
 @import url(./__image/_kind/_plant/place-card__image_kind_plant.css);
+@import url(./__image/_kind/_plant/place-card__image_kind_certificate.css);
 @import url(./__image/_kind/_gardine/place-card__image_kind_catalog1.css);
 @import url(./__image/_kind/_gardine/place-card__image_kind_catalog2.css);
 @import url(./__description/place-card__description.css);

@@ -1,0 +1,16 @@
+.place-card__image_kind_certificate {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 30px auto 50px;
+    width: 400px;
+    height: 600px;
+    background-image: url('../../../../../images/Certificate-Clipso.jpg');
+}
+
+@media screen and (max-width: 500px) {
+    .place-card__image_kind_certificate {
+        width: 300px;
+        height: 450px;
+    }
+  }
