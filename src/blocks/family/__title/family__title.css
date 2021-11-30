@@ -1,30 +1,17 @@
 .family__title {
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    margin-right: auto;
-    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(244,244,254);
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
     font-style: normal;
-    font-size: 40px;
-    line-height: 40px;
-    text-align: left;
-    z-index: 3;
+    font-size: 30px;
+    line-height: 30px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 630px) {
     .family__title {
         font-size: 25px;
         line-height: 25px;
     }
   }
-
-.family__title_animation-bottom {
-    z-index: 5;
-    animation: transport-from-bottom 1s ease-in-out;
-}
-
-.family__title-fourth {
-    font-weight: 600;
-    color: red;
-
-}

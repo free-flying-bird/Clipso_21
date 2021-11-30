@@ -2,8 +2,8 @@
     margin: 0;
     font-weight: 300;
     font-style: normal;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
     max-width: 700px;
     text-align: left;
     background-color: rgba(255,255,255, .3);
@@ -12,14 +12,19 @@
 
 .main__title_visible {
     z-index: 5;
+    font-weight: 600;
     text-align: center;
     margin-top: -150px;
     margin-bottom: 30px;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
 }
 
 @media screen and (max-width: 900px) {
     .main__title_visible {
-      margin-top: 0px;
+        margin-top: 0px;
+
     }
   }
 
@@ -27,6 +32,14 @@
     .main__title {
         font-size: 25px;
         line-height: 25px;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    .main__title_visible {
+        margin-top: 0px;
+        font-size: 30px;
+        line-height: 30px;
     }
   }
 

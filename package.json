@@ -1,7 +1,7 @@
 {
-  "name": "project-11",
+  "name": "clipso-21",
   "version": "1.0.0",
-  "description": "",
+  "description": "Commercial site of ceiling company Clipso-21",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",

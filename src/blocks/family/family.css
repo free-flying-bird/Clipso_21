@@ -1,4 +1,6 @@
 @import url(./__title/family__title.css);
+@import url(./__subtitle/family__subtitle.css);
+
 
 .family {
     font-family: 'Montserrat', sans-serif;
