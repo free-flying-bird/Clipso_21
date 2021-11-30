@@ -1,0 +1,14 @@
+@import url(./__item/collage__item.css);
+
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30vw);
+    grid-gap: 2px;
+    max-height: max-content;
+    max-width: max-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    margin: 0 auto;
+}

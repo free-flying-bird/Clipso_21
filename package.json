@@ -38,13 +38,14 @@
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0",
     "style-loader": "^1.2.1",
-    "webpack": "^4.43.0",
+    "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-md5-hash": "0.0.6"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "caniuse-lite": "^1.0.30001245",
     "core-js": "^3.4.1"
   }
 }

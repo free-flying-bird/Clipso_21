@@ -1,6 +1,7 @@
 @import url(./__text/description__text.css);
 
 .description {
+    font-family: 'Montserrat', sans-serif;  
     display: flex;
     flex-direction: column;
     justify-content: center;

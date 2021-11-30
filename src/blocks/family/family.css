@@ -1,0 +1,29 @@
+@import url(./__title/family__title.css);
+
+.family {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px auto 0;
+    background-image: url("../../images/happy-family.jpg");
+    min-height: 80vh;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+    .family {
+        min-height: 70vh;
+    }
+  }
+
+@media screen and (max-width: 700px) {
+    .family {
+        min-height: 60vh;
+    }
+}

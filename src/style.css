@@ -12,7 +12,12 @@
 @import url(./blocks/contact/contact.css);
 @import url(./blocks/slogan/slogan.css);
 @import url(./blocks/description/description.css);
-
+@import url(./blocks/gallery/gallery.css);
+@import url(./blocks/display-none/display-none.css);
+@import url(./blocks/animation/animation.css);
+@import url(./blocks/family/family.css);
+@import url(./blocks/collage/collage.css);
+@import url(./blocks/zoom-card/zoom-card.css);
 
 * {
     box-sizing: border-box;

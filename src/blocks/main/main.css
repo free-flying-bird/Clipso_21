@@ -1,23 +1,25 @@
 @import url(./__title/main__title.css);
 
 .main {
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 150px;
-    background-image: url(../../images/Head_image.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    margin-top: -215px;
-    align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 150px;
+  background-image: url(../../images/Head_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin-top: -215px;
+  align-items: center;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 900px) {
     .main {
       padding-top: 100px;
+      min-height: 80vh;
     }
   }

@@ -10,3 +10,9 @@
     height: 30px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+    .header__button {
+        margin-top: 0;
+    }
+}

@@ -1,11 +1,11 @@
 @import url(./_place/header__logo_place_footer.css);
 
 .header__logo {
-    width: 148px;
+    width: 80px;
   }
 
   @media screen and (max-width: 720px) {
     .header__logo {
-      width: 100px;
+      width: 60px;
     }
   }
